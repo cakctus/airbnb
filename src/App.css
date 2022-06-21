@@ -107,7 +107,6 @@ body {
 
 .item-box {
   display: flex;
-  flex-direction: row;
   padding: 5px 5px;
   flex: 1;
 }
