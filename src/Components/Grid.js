@@ -13,25 +13,25 @@ import nine from '../images/travel/9.jpg'
 function Grid() {
     return (
         <section className="grid-section">
-            <div class="grid">
-                <div class="one">
+            <div className="grid">
+                <div className="one">
                     <img className="img" src={one} alt="" width="100px" />
                 </div>
 
-                <div class="two">
+                <div className="two">
                     <img className="img" src={two} alt="" width="100px" />
                     <img className="img" src={three} alt="" width="100px" />
                 </div>
 
-                <div class="three">
+                <div className="three">
                     <img className="img" src={fo} alt="" width="100px" />
                     <img className="img" src={five} alt="" width="100px" />
                 </div>
-                <div class="four">
+                <div className="four">
                     <img className="img" src={six} alt="" width="100px" />
                     <img className="img" src={seven} alt="" width="100px" />
                 </div>
-                <div class="five">
+                <div className="five">
                     <img className="img" src={eight} alt="" width="100px" />
                     <img className="img" src={nine} alt="" width="100px" />
                 </div>

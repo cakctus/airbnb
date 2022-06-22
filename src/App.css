@@ -10,7 +10,7 @@ body {
 
 /* Nav */
 .nav {
-  width: 100vw;
+  max-width: 100%;
   display: flex;
   padding: 20px 30px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
@@ -105,17 +105,24 @@ body {
 /* Items */
 
 
-.item-box {
+.item-map {
   display: flex;
-  padding: 5px 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 20px 30px;
+  width: 40%;
+}
+
+.item-box {
+  padding: 15px 0;
   flex: 1;
 }
 
-
-
-
 .item-img {
   border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .item-header {
@@ -141,8 +148,7 @@ body {
 
 
 :root {
-  --rating: 3;
-  --star-size: 30px;
+  --star-size: 25px;
   --star-color: silver;
   --star-background: #fc0;
 }
